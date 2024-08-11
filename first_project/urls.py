@@ -19,11 +19,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from django.conf.urls import include
-from profiles_api import views
 
 
 urlpatterns = [
-    path('', views.index, name = 'index'),
-    path('profiles_api/', include('profiles_api.urls')),
     path('admin/', admin.site.urls),
+    path('profiles_api/', include('profiles_api.urls')),
 ]
