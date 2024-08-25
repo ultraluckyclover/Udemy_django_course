@@ -1,3 +1,3 @@
 # Udemy course project
 
-Learning Django framework.
+Source code for profiles REST API course
